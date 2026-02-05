@@ -3,11 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Crodyto – Smart Ecommerce</title>
+  <title>Crodyto – Launching Soon</title>
 
-  <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -20,34 +18,26 @@
   <section class="hero">
     <div class="hero-left">
       <h1>Shop smarter.<br>Faster with Crodyto.</h1>
-      <p>
-        Discover quality products, fast delivery and secure payments — all in one powerful ecommerce app.
-      </p>
+      <p>Fast delivery, trusted sellers & secure payments.</p>
 
       <div class="input-box">
-        <input type="tel" id="phone" placeholder="Enter your mobile number" />
-        <button id="notifyBtn">Notify Me</button>
+        <input type="tel" id="phone" placeholder="Enter your mobile number">
+        <button onclick="saveNumber()">Notify Me</button>
       </div>
 
       <div class="note">
-        Get early access updates & exclusive launch offers.
+        Get early access updates.
       </div>
-    </div>
-
-    <div class="hero-right">
-      <h3>Why Crodyto?</h3>
-      <ul>
-        <li>Lightning fast checkout</li>
-        <li>Trusted sellers only</li>
-        <li>Secure UPI & card payments</li>
-        <li>Real-time order tracking</li>
-      </ul>
     </div>
   </section>
 
   <footer class="footer">
-    © 2026 Crodyto. Built for the next-gen shoppers.
+    © 2026 Crodyto
   </footer>
+
+  <!-- 🔥 Firebase CDN (NORMAL WAY) -->
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
 
   <script src="script.js"></script>
 </body>
